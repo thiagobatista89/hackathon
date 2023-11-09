@@ -1,0 +1,92 @@
+.div {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.p {
+    align-items: center;
+    text-align: justify;
+    position: absolute;
+    width: 317px;
+    height: 550px;
+    left: 78px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #000000;
+}
+
+.h2 {
+    align-items: center;
+    
+    position: absolute;
+    width: 160px;
+    height: 26px;
+    left: 157px;
+    top: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.logo {
+    text-align: justify;
+    background-color: transparent;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.imgwrapper {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 250px;
+    align-items: center;
+}
+
+.infowrapper {
+    align-items: center;
+    margin: 20px;
+    font-family: var(--font-style-heading);
+    color: var(--secondarycolor);
+    text-align: justify;
+    padding-bottom: 100px;
+    
+}
+
+.main {
+    align-items: center;
+}
+
+.google {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.mapa {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}

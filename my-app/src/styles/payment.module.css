@@ -1,0 +1,105 @@
+.confirmation{
+    border: 2px solid var(--secondarycolor);
+    padding: 0.5rem;
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: var(--secondarycolor);
+    font-size: var(--font-size-paragraph-1);
+    font-family: var(--font-style-paragraph);
+    box-shadow: 3px 3px 8px -2px var(--secondarycolor);
+    background-color: #e0efd6;
+
+}
+
+.confirmation h4{
+    margin: 0;
+    margin-top: 4px  ;
+}
+.paymentContainer{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.paymentContainer h3{
+    font-family: var(--font-style-heading);
+    color: var(--secondarycolor);
+    font-size: 1.75rem;
+    
+  }
+  
+
+  .containerInputText {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+  }
+  
+  .labelInputText {
+    color: var(--secondarycolor);
+    font-size: var(--font-size-paragraph-1);
+    font-family: var(--font-style-paragraph);
+  }
+  
+  
+  .inputText {
+    color: var(--secondarycolor);
+    font-size: var(--font-size-paragraph-1);
+    font-family: var(--font-style-paragraph);
+    background-color: transparent;
+    border: 2px solid var(--secondarycolor) ;
+    height: 2.5rem;
+    width: 60vw;
+    border-radius:0.25rem;
+    margin-top: 4px;
+  
+  }
+  .submit {
+    border-radius: 0.25rem;
+    width: 20vw;
+    height: 2.5rem;
+    background-color: var(--secondarycolor);
+    border: none;
+    color: var(--primarycolor);
+    font-family: var(--font-style-heading);
+    font-size: var(--font-size-paragraph-1);
+}
+.form{
+display: flex;
+flex-direction: column;
+font-weight: 600;
+align-items: center;
+gap: 24px;
+}
+
+.inputContainer{
+    display: flex;
+flex-direction: column;
+}
+
+.title{
+  font-family: var(--font-style-heading);
+  color: rgb(125, 173, 52);
+  font-size: 1.75rem;
+}
+
+.p {
+  padding: 10px;
+  text-align: center;
+  font-family: var(--font-style-heading);
+  color: var(--secondarycolor);
+}
+
+.mbway {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: var(--primarycolor);
+  border: 1px solid var(--secondarycolor);
+}

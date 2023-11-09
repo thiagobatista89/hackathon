@@ -1,0 +1,28 @@
+.cp {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--font-style-heading);
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 4px;
+
+    color: var(--secondarycolor);
+    box-shadow: 3px 3px 8px -2px var(--secondarycolor);
+   
+    
+}
+
+.check {
+    
+    font-size: var(--font-size-h3);
+    font-family: var(--font-style-heading);
+
+}    
+.Confirmationcontainer{
+  padding: 2rem;
+}
+

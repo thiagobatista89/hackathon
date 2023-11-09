@@ -1,0 +1,119 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+
+}
+
+.homeContainer h3 {
+    font-family: var(--font-style-heading);
+    font-size: 1.25rem;
+    color: var(--secondarycolor);
+   
+    margin-bottom: 4px;
+
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.disabledHour {
+    width: 4rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--secondarycolor);
+    opacity: 50%;
+    color: var(--secondarycolor);
+    font-family: var(--font-style-heading);
+}
+
+.availableHour {
+    width: 4rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--secondarycolor);
+    background-color: transparent;
+    font-family: var(--font-style-heading);
+    color: var(--secondarycolor);
+}
+
+.hourWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.type {
+
+    color: var(--secondarycolor);
+    font-size: var(--font-size-paragraph-1);
+    font-family: var(--font-style-paragraph);
+    background-color: transparent;
+    border: 2px solid var(--secondarycolor);
+    height: 2.5rem;
+    width: 70vw;
+    border-radius: 0.25rem;
+}
+
+.customDateInput {
+    border-radius: 0.25rem;
+    background-color: var(--primarycolor);
+    width: 70vw;
+    color: var(--secondarycolor);
+    height: 2.5rem;
+    font-family: var(--font-style-heading);
+    border: var(--secondarycolor) 2px solid;
+    font-size: var(--font-size-paragraph-1);
+
+
+}
+
+.submit {
+    border-radius: 0.25rem;
+    width: 40vw;
+    height: 2.5rem;
+    background-color: var(--secondarycolor);
+    border: none;
+    color: var(--primarycolor);
+    font-family: var(--font-style-heading);
+    font-size: var(--font-size-paragraph-1);
+
+}
+.price {
+ 
+    height: 2.5rem;
+   
+    color: var(--secondarycolor);
+    font-family: var(--font-style-heading);
+    font-size: var(--font-size-paragraph-1);
+
+}
+
+.errorMessage {
+    font-family: var(--font-style-heading);
+    font-size: 1rem;
+
+}
+
+.selected {
+    background-color: burlywood;
+}
+
+.logo {
+    margin-left: 20px;
+}
